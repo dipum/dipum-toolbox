@@ -1,0 +1,309 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/utils/DIPUM Toolbox.prj" location="/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/utils" name="DIPUM Toolbox" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>DIPUM Toolbox</param.appname>
+    <param.authnamewatermark>R. Gonzalez, R. Woods, and S. Eddins</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary>MATLAB functions accompanying the book Digital Image Processing Using MATLAB, 3rd edition, Gatesmark, 2020.</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.version>3.0.0</param.version>
+    <param.output>${PROJECT_ROOT}/DIPUM Toolbox.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>cdf74d4a-29c7-48ae-b8a9-46ec64c63820</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+.DS_Store</param.exclude.filters>
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs />
+    <param.getting.started.guide />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>false</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start>R2016b</param.release.start>
+    <param.release.end>latest</param.release.end>
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.email />
+      <param.company />
+      <param.description />
+      <param.screenshot />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.pcodedmfiles />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.docs />
+      <param.getting.started.guide />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.exported.on.package />
+      <param.required.addons />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/CIE 1931 Standard Observer (1nm).xlsx</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/Contents.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/Readme.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/ThirdPartyUtilityFunctions</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/adpmedian.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/average.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/bandfilter.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/basisImages.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/bayesgauss.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/binary2rgb.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/bound2eight.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/bound2four.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/bound2im.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/boundarydir.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/bsubsamp.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/changeclass.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/cnnFunctions</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/cnotch.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/colorgrad.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/colorseg.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/compare.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/connectpoly.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/conwaylaws.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/coord2mask.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/cornerprocess.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/covmatrix.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/curveDisplay.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/curveManualInput.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/cv2tifs.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/dftfilt.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/dftuv.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/diameter.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/div2D.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/ducky.mat</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/elemdup.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/endpoints.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/fcnnFunctions</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/flipdims.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/frdescp.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/freemanChainCode.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/fun2hist.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/fuzzyFunctions</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/fwtcompare.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/geotrans.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/getCIFAR10images.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/getMNISTimages.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/histroi.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/hpfilter.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/hsi2rgb.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/huff2mat.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/huffman.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/i2percentile.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/ice.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/ifrdescp.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/ifwtcompare.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/illuminant.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/im2jpeg.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/im2jpeg2k.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/im2minperpoly.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/imblend.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/imcircle.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/imcolorcode.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/imnoise2.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/imnoise3.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/imratio.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/imstack2vectors.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/imwarp2.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/intensityScaling.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/intensityTransformations.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/interactive.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/invmoments.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/iseven.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/isodd.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/iswhole.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/jpeg2im.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/jpeg2k2im.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/kmeansClustering.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/levelSetFunctions</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/localthresh.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/lpc2mat.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/lpfilter.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/mahalanobis.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/manualhist.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/mat2huff.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/mat2lpc.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/mathworksLicensedFunctions</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/minDistanceClassifier.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/minusOne.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/mmat2labels.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/movie2tifs.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/movingthresh.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/myRegionProps.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/ntrop.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/otsuthresh.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/paddedsize.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/patternShuffle.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/percentile2i.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/perceptronClassify.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/perceptronTrain.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/pixeldup.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/polyangles.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/predicate.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/principalComponents.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/quantize.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/randvertex.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/recnotch.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/regiongrow.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/reprotate.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/rgb2hsi.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/rgbcube.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/rot180.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/sampleFunctions</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/seq2tifs.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/showmo.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/signature.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/snakeFunctions</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/specxture.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/spfilt.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/splitmerge.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/statmoments.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/statxture.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/strsimilarity.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/tifs2cv.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/tifs2movie.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/tifs2seq.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/tofloat.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/twomodegauss.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/unravel.c</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/unravel.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/unravel.mexa64</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/unravel.mexmaci64</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/unravel.mexw64</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/uppermostLeftmost.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/visgeotrans.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/wave2gray.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/waveback.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/wavecopy.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/wavecut.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/wavedisplay.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/wavefast.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/wavefilter.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/wavepaste.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/wavework.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/wavezero.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/whtmtx.m</file>
+      <file>/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/dipum/x2majoraxis.m</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded>
+      <file>${MATLAB_ROOT}/examples/rptgen/peppers.png</file>
+    </fileset.depfun.excluded>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="DIPUM Toolbox.mltbx" optional="false">/Users/steve/Dropbox/File Cabinet/D/DIPUM Toolbox Open-Source Repository/dipum-toolbox/utils/DIPUM Toolbox.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2019b.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.14.6</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
