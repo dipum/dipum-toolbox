@@ -1,6 +1,6 @@
 # DIPUM Toolbox 3
 
-DIPUM Toolbox 3 contains MATLAB functions were created for the book *Digital Image Processing Using MATLAB*, 3rd edition, by R.C. Gonzalez, R.E. Woods, and S.L. Eddins, Gatesmark, 2020.  The functions supplement and extend the image processing functionality of [MATLAB](https://www.mathworks.com/products/matlab.html) and [Image Processing Toolbox](https://www.mathworks.com/products/image.html), 
+DIPUM Toolbox 3 contains MATLAB functions that were created for the book *Digital Image Processing Using MATLAB*, 3rd edition, by R.C. Gonzalez, R.E. Woods, and S.L. Eddins, Gatesmark, 2020.  The functions supplement and extend the image processing functionality of [MATLAB](https://www.mathworks.com/products/matlab.html) and [Image Processing Toolbox](https://www.mathworks.com/products/image.html), 
 both offered by [MathWorks](https://mathworks.com).
 
 For other information and support files for *Digital Image Processing Using MATLAB*, see the associated [website](http://imageprocessingplace.com).
