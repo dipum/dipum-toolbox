@@ -19,10 +19,4 @@ The DIPUM Toolbox works with all MATLAB platforms.  It includes one MEX-file (UN
 
 ## Installation
 
-To install the DIPUM Toolbox, go to the [releases area](https://github.com/dipum/dipum-toolbox/releases) and download the latest dipum-toolbox.mltbx file. In MATLAB, navigate to the folder containing the downloaded file and double-click on it in the MATLAB Current Folder Browser. An installer will open to guide you through the installation process.
-
-Alternatively, download the latest code from the [DIPUM Toolbox
-repository](https://github.com/dipum/dipum-toolbox) and add all the
-code folders to the MATLAB Search Path. In the MATLAB HOME tab, click
-on Set Path. Then, click on "Add with Subfolders..." and select the
-top-level folder containing the DIPUM Toolbox files.
+To install the DIPUM Toolbox, go to the [latest release page](https://github.com/dipum/dipum-toolbox/releases/latest) and see the installation instructions there.
