@@ -1,0 +1,3 @@
+This function is by Frederic Moisy. It is distributed on the MATLAB Central File Exchange with no license statement.
+
+http://www.mathworks.com/matlabcentral/fileexchange/12770-myginput
